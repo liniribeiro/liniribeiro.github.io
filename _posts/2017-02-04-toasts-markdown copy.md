@@ -101,5 +101,4 @@ customToast.Show();
 
 Você pode acessar um código com estes exemplos em meu Github.
 
-Grande Abraço,
-Alini!
+Grande Abraço, AR 🙂

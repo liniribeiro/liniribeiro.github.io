@@ -1,0 +1,42 @@
+---
+layout: post
+title: Principais classes no COCOS2D
+subtitle: Overview das principais classes utilizadas no framework cocos2d
+gh-repo: liniribeiro/flappyBirdGDX
+gh-badge: [star, fork, follow]
+thumbnail-img: /assets/posts/cocos2d.jpg
+share-img: /assets/posts/cocos2d.jpg
+tags: [android, games, overview, lini-notes]
+---
+![cocos2dlini1](/assets/posts/cocos2d.jpg){: .mx-auto.d-block :}
+
+Olá Pessoal! Neste Post vou falar um pouco sobre as primcipais classes do Cocos2D, estou lendo um livro que ensina a desenvolver jogos para Android utilizando esse framework.
+Confesso que mesmo nunca desenvolvi nada em Android, mas estou super empolgada.
+
+O Cocos2D é um framework open source de desenvolvimento de jogos. A versão original foi criada em Python e desde então foi portada para diversas linguagens como C++, JavaScript, Objective-C e Java. É muito poderoso e simples.
+
+Para utilizar a versão Java, basta baixar o arquivo cocod2d-android.jar e adicionar o Jar ao Build Path do seu projeto.
+
+Você também pode consultar a [documentação do framework](https://docs.cocos2d-x.org/cocos2d-x/v4/en/), então vamos lá para as classes que me ajudaram a criar um joguinho clone do Flapbird (Você pode encontrá-lo em meu Github). 
+
+
+##### CCScene
+Segundo minhas pesquisas, a classe CCScene é usada para criar telas como as de Menu, de Jogo e de Créditos. Um jogo pode ter quantas Scenes forem necessárias, porém apenas uma estará ativa por vez.
+
+##### CCLayers
+Em uma Scene (cena), você pode ter diferentes layers (camadas) para ajudar a organizar melhor sua cena como acontece em programas de edição de imagem. Em jogos, você poderá ter diferentes camadas como a HUD (Heads-up Display) e background. Também, CCLayers, diferentemente de CCScenes, possuem a habilidade de receber eventos de toque.
+Dentro de CCLayers, você pode ter CCSprites, CCMenus, e assim por diante.
+
+##### CCSprite
+É a classe usada para adicionar imagens na tela. A imagem pode estar no formato .png ou .jpg.
+Ela tem varias propriedades como largura e alturada da imagem, setPosition, setScale, e setRotation, que podem ser usadas para manipular a posição, escala e rotação da imagem.
+
+##### CCLabel
+É a classe usada sempre que seja necessário mostrar qualquer texto na tela. É usada principalmente para mostrar tutoriais, número de níveis no início do jogo.
+O texto pode ser mudado dinamicamente, por exemplo, atualizando a pontuação ou tempo durante a partida.
+
+##### CCMenu
+É usada para colocar elemento de interface de usuário (UI) como botões. CCMenuItems são usadas para anexar imagens, posição e então adicioná-las em CCMenu para que sejam mostradas na tela.
+
+Parece que meu bloquinho de anotaçoes está completo não é mesmo? Assim que eu gosto, estudar e ir anotando os pontos mais importantes para consulta em um futuro.
+Grande Abraço, AR 🙂
