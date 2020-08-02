@@ -485,16 +485,6 @@ footer .footer-custom-content {
   width: 100%;
 }
 
-.post-image:hover {
-  filter: grayscale(0%);
-}
-.post-image img {
-  border-radius: 6.25rem;
-  height: 12rem;
-  width: 12rem;
-  align-content: center;
-  text-align: center;
-}
 .post-preview .post-read-more {
   font-weight: 800;
 }
@@ -537,28 +527,6 @@ footer .footer-custom-content {
   }
 }
 
-@media (max-width: 767px) {
-  .post-image, .post-image img {
-    margin-top: 0;
-    height: 9rem;
-    width: 9rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .post-image, .post-image img {
-    height: 6.25rem;
-    width: 6.25rem;
-  }
-
-  .post-image {
-    width: 100%;
-    text-align: center;
-    /* margin-top: 0;
-    margin-left: 0; */
-    float: none;
-  }
-}
 /* --- Post and page headers --- */
 
 .intro-header {
@@ -939,7 +907,7 @@ pre {
 
 
 .aliniborder {
-  border-collapse: collapse;
+  display: block;
   border-style: hidden;
   border-bottom: hidden;
   border-top: hidden;
@@ -951,8 +919,8 @@ pre {
   border-bottom: hidden;
   border-top: hidden;
   border-radius: 0%;
-  margin: 5px;
-  padding: 5px 45px 5px;
+  /* margin: 5px;
+  padding: 5px 45px 5px; */
   text-align: left;
 }
 
@@ -963,8 +931,8 @@ pre {
   border-top: hidden;
   border-radius: 0%;
   background-color: white;
-  margin: 5px 5px 5px;
-  padding: 5px 45px 5px;
+  /* margin: 5px 5px 5px;
+  padding: 5px 45px 5px; */
   text-align: left;
 }
 
@@ -977,11 +945,48 @@ pre {
 }
 
 .post-image {
+  display: block;
   align-items: center;
-  margin-left: 4rem;
+  margin-left: auto;
+  margin-right: auto;
   height: 12rem;
   width: 12rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   filter: grayscale(90%);
 }
+
+
+.post-image:hover {
+  filter: grayscale(0%);
+}
+
+.post-image img {
+  border-radius: 6.25rem;
+  height: 12rem;
+  width: 12rem;
+  align-content: center;
+  text-align: center;
+}
+
+
+/* @media (max-width: 767px) {
+  .post-image, .post-image img {
+    margin-top: 0;
+    height: 9rem;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .post-image, .post-image img {
+    height: 6.25rem;
+    width: 6.25rem;
+  }
+
+  .post-image {
+    width: 100%;
+    text-align: center;
+    /* margin-top: 0;
+    margin-left: 0; */
+    /* float: none;
+  }
+} */ 
