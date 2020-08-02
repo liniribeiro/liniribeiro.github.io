@@ -4,11 +4,11 @@ title: "Explicando: Backend"
 subtitle: Uma explicação simples do que é um Backend!
 gh-repo: liniribeiro/wheather
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/posts/backend-1.png
-share-img: /assets/posts/backend-1.png
+thumbnail-img: /assets/posts/backend-alini-thu.png
+share-img: /assets/posts/backend-alini-thu.png
 tags: [programacao, overview]
 ---
-![pythonlini1](/assets/posts/backend-1.png){: .mx-auto.d-block :}
+![pythonlini1](/assets/posts/backend-alini.png){: .mx-auto.d-block :}
 
 Trabalhei muitos anos com aplicações Desktop e quando decidi trabalhar com desenvolvimento Web, foram alguns meses até conseguir assimilar tudo o que estava fazendo e me apaixonar mais ainda por desenvolvimento, especialmente o desenvolvimento do backend das aplicações. Mas o que envolve o backend de uma aplicação?
 

@@ -4,11 +4,11 @@ title: "Python: Enviando emails com SMTPLIB"
 subtitle: Tutorial de um código simples em menos de 10 minutos!
 gh-repo: liniribeiro/email-with-smtplib
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/posts/python1-alini.png
-share-img: /assets/posts/python1-alini.png
+thumbnail-img: /assets/posts/smtplib-alini-thu.png
+share-img: /assets/posts/smtplib-alini-thu.png
 tags: [python, tutorial]
 ---
-![pythonlini1](/assets/posts/python1-alini.png){: .mx-auto.d-block :}
+![pythonlini1](/assets/posts/smtplib-alini.png){: .mx-auto.d-block :}
 
 Estes dias pesquisei qual a forma mais simples de enviar emails com anexos, utilizando Python e vim compartilhar o que encontrei.
 
