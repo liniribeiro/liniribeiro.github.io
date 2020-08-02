@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python - Enviando emails com SMTPLIB
+title: "Python: Enviando emails com SMTPLIB"
 subtitle: Tutorial de um código simples em menos de 10 minutos!
 gh-repo: liniribeiro/email-with-smtplib
 gh-badge: [star, fork, follow]
