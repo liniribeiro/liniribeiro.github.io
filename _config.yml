@@ -15,7 +15,7 @@ navbar-links:
   Sobre: "aboutlini"
   Projetos:
     - Github: "https://github.com/liniribeiro?tab=repositories"
-    - Pi Decor: "https://github.com/liniribeiro?tab=repositories"
+    - Pi Decor: "pidecor"
     - Maria vai com as Devs: "https://github.com/liniribeiro?tab=repositories"
 
 # --- Logo --- #

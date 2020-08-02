@@ -1,0 +1,38 @@
+---
+layout: post
+title: PiDecor
+subtitle: Apresentação do meu projeto de conclusão do curso de Arquitetura de Software pela PUC de Minas
+gh-repo: liniribeiro/flappyBirdGDX
+gh-badge: [star, fork, follow]
+thumbnail-img: /assets/posts/oracle.png
+share-img: /assets/posts/oracle.png
+tags: [oracle, tips]
+---
+![cocos2dlini1](/assets/posts/oracle.png){: .mx-auto.d-block :}
+
+
+Em alguns momentos da vida, aparece aquela necessidade de transferir dados de um servidor para outro, ou até mesmo fazer algum backup de segurança.
+E pra mim, hoje foi um dia desses,  precisei fazer  duplicação da base de dados do cliente para realizar alguns testes. 
+O servidor era Oracle e enorme, como o backup pela nossa ferramenta demorava mais de horas, fiz um DUMP para exportar e importar os dados.
+
+De acordo com a Oracle, utilizar export e import é um caminho simples para se transferir objetos entre banco de dados Oracle, mesmo quando as bases estão em plataformas com diferentes hardwares e softwares e a uma das alternativas é utilizar a ferramenta exp/imp, que está presente em todas as versões do Oracle.
+
+O exp.exe é um executável encontrado em: “\\instalaçãoOracle\app\oracle\product\versão\server\bin”, é utilizado para se exportar objetos de uma base de dados. Para executar o comando é só fazer assim:
+~~~
+exp usuariobanco/SenhaUsuario@server FILE=”C:\nomedoArquivoGerado.dmp”
+~~~
+
+Dependendo do tamanho da base, pode demorar algum tempo para terminar de executar a exportação.
+
+O imp.exe é encontrado no mesmo diretório que o “exp“, é utilizado para se importar objetos de um arquivo de dump. Para realizar a importação no meu caso, primeiro tive que criar uma nova base, em seguida para executar o comando é assim:
+~~~
+imp usuariobanco/SenhaUsuario@server FILE=”C:\nomedoArquivoGerado.dmp” fromuser=UsuárioDoExport touser=UsuárioCriado
+~~~
+
+Como estou fazendo uma importação para um usuário novo, vou ter que setar o usuário de origem e o de destino, por este motivo no comando estou setando as tags fromuser e touser.
+
+Os executáveis imp e exp são usados bastante nos ambientes com Oracle, e são uma mão na roda em muitos momentos. Existem alternativas para estas operações como: Dois novos recursos do oracle Data Pump 12c.
+
+Nunca esqueça: antes de perguntar ou se desesperar, Google it!
+
+Grande Abraço, A.R. 🙂

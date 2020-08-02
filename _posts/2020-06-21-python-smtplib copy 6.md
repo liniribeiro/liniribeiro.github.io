@@ -79,4 +79,4 @@ E assim, com menos de 10 minutos, conseguimos enviar um email com anexo.
 Para mais informações, você pode analisar a Documentação do Python.
 O código está disponível em meu GitHub!
 
-Grande Abraço, AR 🙂
+Grande Abraço, A.R. 🙂

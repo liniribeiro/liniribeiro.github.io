@@ -39,4 +39,6 @@ O texto pode ser mudado dinamicamente, por exemplo, atualizando a pontuação ou
 É usada para colocar elemento de interface de usuário (UI) como botões. CCMenuItems são usadas para anexar imagens, posição e então adicioná-las em CCMenu para que sejam mostradas na tela.
 
 Parece que meu bloquinho de anotaçoes está completo não é mesmo? Assim que eu gosto, estudar e ir anotando os pontos mais importantes para consulta em um futuro.
-Grande Abraço, AR 🙂
+
+
+Grande Abraço, A.R. 🙂
