@@ -4,11 +4,11 @@ title: "Explicando: Backend"
 subtitle: Uma explicação simples do que é um Backend!
 gh-repo: liniribeiro/wheather
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/posts/backend-alini-thu.png
-share-img: /assets/posts/backend-alini-thu.png
+thumbnail-img: /assets/posts/backend/backend-alini-thu.png
+share-img: /assets/posts/backend/backend-alini-thu.png
 tags: [programacao, overview]
 ---
-![pythonlini1](/assets/posts/backend-alini.png){: .mx-auto.d-block :}
+![pythonlini1](/assets/posts/backend/backend-alini.png){: .mx-auto.d-block :}
 
 Trabalhei muitos anos com aplicações Desktop e quando decidi trabalhar com desenvolvimento Web, foram alguns meses até conseguir assimilar tudo o que estava fazendo e me apaixonar mais ainda por desenvolvimento, especialmente o desenvolvimento do backend das aplicações. Mas o que envolve o backend de uma aplicação?
 
@@ -32,7 +32,7 @@ Em nosso exemplo, possuímos personagens principais que irão se conectar para q
  
 
 A comunicação entre aplicações irá se comportar da seguinte forma:
-![pythonlini1](/assets/posts/comun-app-alini.png){: .mx-auto.d-block :}
+![pythonlini1](/assets/posts/backend/comun-app-alini.png){: .mx-auto.d-block :}
 
 Para realizar esta tarefa de salvar e apresentar as cidades, vamos precisar construir 4 APIS no backend:
 

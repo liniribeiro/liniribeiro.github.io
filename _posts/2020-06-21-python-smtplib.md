@@ -4,11 +4,11 @@ title: "Python: Enviando emails com SMTPLIB"
 subtitle: Tutorial de um código simples em menos de 10 minutos!
 gh-repo: liniribeiro/email-with-smtplib
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/posts/smtplib-alini-thu.png
-share-img: /assets/posts/smtplib-alini-thu.png
+thumbnail-img: /assets/posts/smtplib/smtplib-alini-thu.png
+share-img: /assets/posts/smtplib/smtplib-alini-thu.png
 tags: [python, tutorial]
 ---
-![pythonlini1](/assets/posts/smtplib-alini.png){: .mx-auto.d-block :}
+![pythonlini1](/assets/posts/smtplib/smtplib-alini.png){: .mx-auto.d-block :}
 
 Estes dias pesquisei qual a forma mais simples de enviar emails com anexos, utilizando Python e vim compartilhar o que encontrei.
 
@@ -17,7 +17,7 @@ Para enviar um email a partir de uma aplicação, precisamos seguir o protocolo 
 Para iniciar nossa aplicação, precisamos nos conectar a um servidor SMTP, que é um é um computador que recebe os emails e os entrega a seus respectivos destinatários.
 Como vamos utilizar o servidor smtp da Google, precisamos gerar uma senha para ser utilizada pela nossa aplicação: https://myaccount.google.com/apppasswords
 
-![pythonlini12](/assets/posts/senha-google.png){: .mx-auto.d-block :}
+![pythonlini12](/assets/posts/smtplib/senha-google.png){: .mx-auto.d-block :}
 
 A senha que será gerada, será utilizada para realizar login em nossa aplicação.
 

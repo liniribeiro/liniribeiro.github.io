@@ -4,11 +4,11 @@ title: "Explicando: SOAP"
 subtitle: Overview sobre o protocolo de comunicação baseado em XML
 gh-repo: liniribeiro/soap_mock
 gh-badge: [star, fork, follow]
-thumbnail-img: /assets/posts/soap-thu.png
-share-img: /assets/posts/soap-thu.png
+thumbnail-img: /assets/posts/soap/soap-thu.png
+share-img: /assets/posts/soap/soap-thu.png
 tags: [overview, protocol, soap]
 ---
-![cocos2dlini1](/assets/posts/soap-alini.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap-alini.png){: .mx-auto.d-block :}
 
 Olá pessoa! Hoje vou escrever um pouco sobre o Simple Object Access Protocol (SOAP) significa Protocolo Simples de Acesso a Objetos, é um protocolo de comunicação baseado em XML que permite a comunicação de mensagens entre aplicações via HTTP  utilizado em WebServices.
 
@@ -55,22 +55,22 @@ Já a segunda é quando o Provider registra a WSDL no UDDI, que é onde os servo
 
 Segue como podemos criar um web service SOAP em java, utilizando o eclipse:
 - Criar um novo “Dinamic Web Project” no eclipse, coloque o nome de seu projeto;
-![cocos2dlini1](/assets/posts/soap1.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap1.png){: .mx-auto.d-block :}
 
 - Criar um novo pacote com o nome: exemplo.javapost.webservices;
-![cocos2dlini1](/assets/posts/soap2.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap2.png){: .mx-auto.d-block :}
 
 - Criar uma classe chamada “HelloWorld.java”;
-![cocos2dlini1](/assets/posts/soap3.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap3.png){: .mx-auto.d-block :}
 
 - Clicar com botão direito no projeto > Novo > Web Service;
-![cocos2dlini1](/assets/posts/soap4.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap4.png){: .mx-auto.d-block :}
 
 - Em Service Implementation, colocar o nome do pacote que você criou, junto com o nome da classe: exemplo.javapost.webservices.HelloWorld;
 - Nos níveis de Test service e Test Client, colocar no nível máximo e clicar em Finish. Um novo projeto chamado ExemploSOAPClient foi criado na sua workspace;
 - Depois de iniciar o server, você poderá testar seu projeto.
-![cocos2dlini1](/assets/posts/soap5.png){: .mx-auto.d-block :}
-![cocos2dlini1](/assets/posts/soap6.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap5.png){: .mx-auto.d-block :}
+![cocos2dlini1](/assets/posts/soap/soap6.png){: .mx-auto.d-block :}
 
 Prontinho, achei super fácil criar e testar o web service, o que me deixou feliz.
 Grande Abraço, A.R. 🙂

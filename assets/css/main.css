@@ -967,6 +967,11 @@ pre {
   text-align: center;
 }
 
+.post-http-small-image {
+  height: 20rem;
+  width: 20rem;
+  float: right;
+}
 
 /* @media (max-width: 767px) {
   .post-image, .post-image img {

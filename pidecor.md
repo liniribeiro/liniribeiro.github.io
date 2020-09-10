@@ -5,7 +5,7 @@ subtitle: Meu projeto de conclusão de curso da Especialização em arquitetura 
 gh-repo: liniribeiro/puc-mg-tcc-poc
 gh-badge: [star, fork, follow]
 ---
-![image-title-here](/assets/posts/pidecor.png){: .mx-auto.d-block :}
+![image-title-here](/assets/posts/pidecor/pidecor.png){: .mx-auto.d-block :}
 
 
 # A História
@@ -41,7 +41,7 @@ Pidecor, o e-commerce de decoração com a modalidade de entrega Dropshiping.
 
 Há 4/5 anos atrás eu comprei uma máquina de costura e comecei a fazer algumas almofadas pra vender, foi onde surgiu a Pidecor, minha loja de almofadas. Era tudo muito lindo e dava um trabalho bem grande. Tinha uma loja virtual linda que nunca vendeu se quer 1 almofada!
 
-![image-title-here](/assets/posts/pidecor2.png){: .mx-auto.d-block :}
+![image-title-here](/assets/posts/pidecor/pidecor2.png){: .mx-auto.d-block :}
 
 Foi dali que surgiu a ideia de “personificar” a Pidecor como a minha plataforma de e-commerce para iniciar o TCC. Depois de ter este objetivo identificado, realizei algumas pesquisar e percebi que seria perda de tempo desenvolver um e-commerce, temos hoje muitas plataformas que já disponibilizam toda uma estrutura.
 
@@ -49,7 +49,7 @@ Então pensei por um lado diferente, identifiquei três tipos de usuários para 
 
 Pensando em toda a jornada do usuário, foi proposto 8 requisitos funcionais, de acordo com o papel do usuário.
 
-![image-title-here](/assets/posts/requisitos-pidecor.gif){: .mx-auto.d-block :}
+![image-title-here](/assets/posts/pidecor/requisitos-pidecor.gif){: .mx-auto.d-block :}
 
 Um dos requisitos  solicitados para o trabalho era que o sistema seja integrado com outros dois sistemas:
 – De Fornecedores: que fornece os produtos da loja e promovem a entrega.
