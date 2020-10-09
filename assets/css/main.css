@@ -895,15 +895,6 @@ pre {
 
 /* CSS Alini */
 
-.alini-img {
-    border-radius: 20%;
-    width: 25%;
-    display: inline-block;
-    /* text-align: center; */
-    float: right;
-    /* padding: 10px 10px 10px 10px; */
-    /* margin: 10px 10px 10px 10px; */
-}
 
 
 .aliniborder {
@@ -919,8 +910,7 @@ pre {
   border-bottom: hidden;
   border-top: hidden;
   border-radius: 0%;
-  /* margin: 5px;
-  padding: 5px 45px 5px; */
+
   text-align: left;
 }
 
@@ -931,8 +921,6 @@ pre {
   border-top: hidden;
   border-radius: 0%;
   background-color: white;
-  /* margin: 5px 5px 5px;
-  padding: 5px 45px 5px; */
   text-align: left;
 }
 
@@ -996,3 +984,42 @@ pre {
     /* float: none;
   }
 } */ 
+
+
+.video-content {
+  width: 560px;
+  margin: 2em auto;
+}
+
+.presentation{
+  padding:5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+
+.skills{
+  padding:5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  align-content: center;
+}
+
+.alini-img {
+  width: 25%;
+}
+
+
+.about-full-img {
+  display: block;
+  margin: 2em auto;
+}
+
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
+}
