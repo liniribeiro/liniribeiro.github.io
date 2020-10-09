@@ -35,11 +35,12 @@ subtitle: Olá, sou a Alini!!
     <img src="/assets/posts/about/girl.png" alt="Alini Programs" class="post-http-small-image">
     <ul>
         <li> Projeto de Remuneração, onde ajudava os gestores e time de RH na tomada de decisão;</li>
-        <li>Projeto de reestruturação dos produtos, apresentando os dados Analytics de uma forma unificada para todos os usuários;</li>
-        <li> Projetos que integram APIS de terceiros com o sistema principal responsável pela gestão das informaçõs;</li>
+        <li> Projeto de reestruturação dos produtos, apresentando os dados Analytics de uma forma unificada para todos os usuários;</li>
+        <li> Projetos que integram APIS de terceiros com o sistema principal responsável pela gestão das informações;</li>
         <li> Construção de chatbots que se plugam com o DialogFlow, utilizando Blip como Plataforma;</li>
         <li> Contrução de um orquestrador de mensagens que escolhe e envia a mensagem para o canal alvo (Email, SMS e Push) um processo de alta volumetria com + de 2kk de mensagens trafegadas na aplicação por dia;</li>
-        <li> Automação de ativações CRM, constuído com Python e Celery. Também um processo de alta volumetria com + de 1kk de mensagens trafegadas na aplicação por dia.</li>
+        <li> Automação de ativações CRM, constuído com Python e Celery. Também um processo de alta volumetria com + de 1kk de mensagens trafegadas na aplicação por dia;</li>
+        <li> Aplicação que gera relatórios performáticos em base de dados colossal.</li>
     </ul>
     Em todos meus projetos tenho o objetivo de contruir um software com um design de fácil leitura, com qualidade e fazer entregas relevantes e funcionais.
     <br>
