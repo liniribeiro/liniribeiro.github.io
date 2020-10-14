@@ -924,11 +924,12 @@ pre {
   text-align: left;
 }
 
-@media screen and (max-width: 480px){
-  .aliniborder td, .aliniborder th, .aliniborder {
-    margin: 5% 5%;
-    padding: 5% 5%;
-  }
+@media screen and (max-width: 880px){
+  body, .presentation, .video-content, p, body
+    {
+      width: auto;
+      text-align: left;
+    }
 
 }
 
@@ -960,30 +961,6 @@ pre {
   width: 20rem;
   float: right;
 }
-
-
-/* @media (max-width: 767px) {
-  .post-image, .post-image img {
-    margin-top: 0;
-    height: 9rem;
-    width: 9rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .post-image, .post-image img {
-    height: 6.25rem;
-    width: 6.25rem;
-  }
-
-  .post-image {
-    width: 100%;
-    text-align: center;
-    /* margin-top: 0;
-    margin-left: 0; */
-    /* float: none;
-  }
-} */ 
 
 
 .video-content {
@@ -1022,4 +999,56 @@ pre {
 
 #inner {
   display: inline-block;
+}
+
+/* css alini2 */
+
+.albums li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.img-principal {
+  height: 20rem;
+  width: 20rem;
+  float: right;
+  /* Float sobe todo o elemento e o que está a sua volta.
+  Também ocupa a parte da sombra para que os elementos ao lado, fiquem em volta dele.
+  anto o float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele*/
+  /* 0 -> cima, 20px -> diireita, 20px -> baixo, 0 esquerda.  */
+  margin: 10px 20px 20px 0px;
+}
+
+
+@media screen and (max-width: 480px){
+  .header-box, .principal, .map, .map-content,
+  .discografia, .albums,
+  .video-content, .content, .send {
+    width: auto;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .albums-list, .imagemdisc{
+    width: 100%
+  }
+
+  .albums li {
+    width: 80%;
+    margin: 10% 10%;
+  }
+
 }
