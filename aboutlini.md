@@ -29,7 +29,7 @@ subtitle: Olá, sou a Alini!!
             <li class="items">Projetos que integram APIS de terceiros com o sistema principal responsável pela gestão das informações;</li>
             <li class="items">Construção de chatbots que se ligam com o Dialog Flow, utilizando Blip como Plataforma;</li>
             <li class="items">Construção de um orquestrador de mensagens que escolhe e envia a mensagem para o canal alvo (Email, SMS e Push) um processo de alta volumetria com + de 2kk de mensagens trafegadas na aplicação por dia;</li>
-            <li class="items">Automação de ativações CRM, constuído com Python e Celery. Também um processo de alta volumetria com + de 1kk de mensagens trafegadas na aplicação por dia;</li>
+            <li class="items">Automação de ativações CRM, também um processo de alta volumetria com + de 1kk de mensagens trafegadas na aplicação por dia;</li>
             <li class="items">Aplicação que gera relatórios performáticos em base de dados colossal.</li>
           </ul>
         </div>
