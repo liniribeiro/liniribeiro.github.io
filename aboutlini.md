@@ -24,9 +24,10 @@ subtitle: Olá, sou a Alini!!
         <h3>No decorrer destes anos pude participar de projetos com vários propósitos: </h3>
         <div class="content">
           <ul class="albums-list"><img class="img-principal" src="/assets/posts/about/girl.png" alt="">
-            <li class="items">Projeto de Remuneração, onde ajudava os gestores e time de RH na tomada de decisão;</li>
+            <li class="items">Projeto de envio de Pulsos, para realizar a pesquisa de clima organizacional;</li>
+            <li class="items">Projeto de Remuneração, que ajudava os gestores e time de RH na tomada de decisão;</li>
             <li class="items">Projeto de reestruturação dos produtos, apresentando os dados Analytics de uma forma unificada para todos os usuários;</li>
-            <li class="items">Projetos que integram APIS de terceiros com o sistema principal responsável pela gestão das informações;</li>
+            <li class="items">Projetos de integração de parceiros na platadorma do Limpa Nome, da Serasa;</li>
             <li class="items">Construção de chatbots que se ligam com o Dialog Flow, utilizando Blip como Plataforma;</li>
             <li class="items">Construção de um orquestrador de mensagens que escolhe e envia a mensagem para o canal alvo (Email, SMS e Push) um processo de alta volumetria com + de 2kk de mensagens trafegadas na aplicação por dia;</li>
             <li class="items">Automação de ativações CRM, também um processo de alta volumetria com + de 1kk de mensagens trafegadas na aplicação por dia;</li>
