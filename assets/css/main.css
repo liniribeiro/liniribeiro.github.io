@@ -924,14 +924,6 @@ pre {
   text-align: left;
 }
 
-@media screen and (max-width: 880px){
-  body, .presentation, .video-content, p, body
-    {
-      width: auto;
-      text-align: left;
-    }
-
-}
 
 .post-image {
   display: block;
@@ -960,6 +952,13 @@ pre {
   height: 20rem;
   width: 20rem;
   float: right;
+}
+
+.post-http-small-image2 {
+  height: 20rem;
+  width: 20rem;
+  float: right;
+  margin-left: 2rem;
 }
 
 
@@ -991,6 +990,14 @@ pre {
   display: block;
   margin: 2em auto;
 }
+
+.about-medium-img {
+  display: block;
+  margin: 2em auto;
+  width: 40%;
+}
+
+
 
 #outer {
   width: 100%;
@@ -1030,7 +1037,7 @@ pre {
 @media screen and (max-width: 480px){
   .header-box, .principal, .map, .map-content,
   .discografia, .albums,
-  .video-content, .content, .send {
+  .video-content, .content, .send{
     width: auto;
   }
 
@@ -1051,4 +1058,54 @@ pre {
     margin: 10% 10%;
   }
 
+  .maria-principal {
+    display:block;
+    text-align: left;
+    width: auto;
+    color: orange;
+    height: 100vh;
+  }
+
+}
+
+@media screen and (max-width: 880px){
+  body, .presentation, .video-content, p, body, .maria-principal
+    {
+      width: auto;
+      text-align: left;
+    }
+
+    .maria-img-principal {
+      display: block;
+      text-align: left;
+      width: auto;
+      color: red;
+    }
+}
+
+
+/* CSS Maria vai com as devs */
+
+.maria-img {
+  display: block;
+  margin: 2em auto;
+  width: 40%;
+  float: left;
+}
+
+.maria-principal {
+  width: 940px;
+  margin: 0 auto;
+  padding: 3em 0;
+  background: #FEFEFE
+}
+
+.maria-img-principal {
+  width: 40%;
+  /* Float sobe todo o elemento e o que está a sua volta.
+  Também ocupa a parte da sombra para que os elementos ao lado, fiquem em volta dele.
+  anto o float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele*/
+  float: left;
+  /* 0 -> cima, 20px -> diireita, 20px -> baixo, 0 esquerda.  */
+  margin: 0 20px 0px 0;
 }
