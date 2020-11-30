@@ -18,6 +18,9 @@ Na sessão de Downloads, automaticamente já será disponibilizado o instalador 
 
 ![install-python1](/assets/posts/instaling-python/installpython1.png){: .mx-auto.d-block :}
 
+Ou podemos escolher uma versão específica a partir deste [Link](https://www.python.org/downloads/windows/)
+![install-python1](/assets/posts/instaling-python/python-install.gif){: .mx-auto.d-block :}
+
 Após o download ser finalizado, abra-o e logo na primeira tela é importante marcar a checkbox **Add Python 3.8 to PATH**. 
 Essa opção é importante para conseguirmos executar o Python dentro do Prompt de Comando do Windows.
 
@@ -80,6 +83,8 @@ Para realizar o download da IDE que será utilizada para a construções de noss
 [Página para o download do Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 Em breve iremos construir o esqueleto de um projeto para iniciar nossa aventura com o Python!
+
+
 
 Passos simples não é mesmo?? 
 <br>
