@@ -22,7 +22,7 @@ subtitle: Olá, sou a Alini!!
             </div>
       <section>
         <h3>No decorrer destes anos pude participar de projetos com vários propósitos: </h3>
-        <div class="content">
+        <div class="div-projects">
           <ul class="albums-list"><img class="img-principal" src="/assets/posts/about/girl.png" alt="">
             <li class="items">Projeto de envio de Pulsos, para realizar a pesquisa de clima organizacional;</li>
             <li class="items">Projeto de Remuneração, que ajudava os gestores e time de RH na tomada de decisão;</li>
@@ -43,4 +43,5 @@ subtitle: Olá, sou a Alini!!
             </div>
    </section>
 </body>
+
 

@@ -12,11 +12,13 @@ author: Alini Ribeiro
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Sobre: "aboutlini"
+  Sobre: "home-pages/aboutlini"
+  Chatbots:
+    - Kiki: "home-pages/kiki-bot"
   Projetos:
     - Github: "https://github.com/liniribeiro?tab=repositories"
-    - Pi Decor: "pidecor"
-    - Maria vai com as Devs: "maria-vai-com-as-devs"
+    - Pi Decor: "home-pages/pidecor"
+    - Maria vai com as Devs: "home-pages/maria-vai-com-as-devs"
 
 # --- Logo --- #
 
