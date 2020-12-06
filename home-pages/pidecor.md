@@ -21,7 +21,7 @@ Como as aulas eram á distância, no decorrer do curso, eu não fui tão comprom
 A proposta era escolher entre dois contextos com destintos requisitos funcionais e não funcionais, a partir de nossa escolha, desenvolver uma proposta arquitetural para eles, juntamente com uma prova de conceito (POC). <br>
 
 ![fotodaalini](/assets/posts/pidecor/window.png){: .post-medium-image-left :}
-Pois bem, eu fiquei muito ansiosa e passei noites em claro tentando decidir qual dos dois temas seria ideal, qual deles eu encontraria mais detalhes para entender do negócio, qual problema eu teria vontade e alegria em solucionar. Foi difícil mas consegui decidir pelo que possuía um nome maior: Sistema de controle de vendas com a modalidade de entrega dropsipping.
+Pois bem, eu fiquei muito ansiosa e passei noites em claro tentando decidir qual dos dois temas seria ideal, qual deles eu encontraria mais detalhes para entender do negócio, qual problema eu teria vontade e alegria em solucionar. Foi difícil mas consegui decidir pelo que possuía um nome maior: Sistema de controle de vendas com a modalidade de entrega dropshipping.
 
 Esta modalidade de entrega de mercadoria é muito utilizada em lojas que não trabalham com estoque, depois que elas recebem o pedido, encomendam a mercadoria com o fornecedor, que por sua vez envia o produto diretamente ao cliente.
 
@@ -43,7 +43,7 @@ Foram dias e noites na tentativa e erro para aprender a utilizar bootstrap, acha
 
 **Pidecor**, o e-commerce de decoração com a modalidade de entrega Dropshiping.
 
-![image-title-here](/assets/posts/pidecor/Pidecor1.jpg){: .mx-auto.d-block :}
+![image-title-here](/assets/posts/pidecor/pidecor1.jpg){: .mx-auto.d-block :}
 <br>
 Em 2015, comprei uma máquina de costura e comecei a fazer algumas almofadas pra vender, foi onde surgiu a **Pidecor**, minha loja de almofadas. 
 Era tudo muito lindo e dava um trabalho bem grande.<br>
