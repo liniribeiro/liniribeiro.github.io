@@ -12,7 +12,7 @@ subtitle: A primeira assistente de IA da Alini
                 <!--Add the name of the bot here -->
                 <span class="chat_header_title">
                 <img class="chat_icon" src="/assets/img/icon-alini.png">Kiki
-                <span class="dropdown-trigger" id="close">X</span>
+                <span class="dropdown-trigger close" id="close">&times;</span>
                 </span>    
             </div>
             <!--Chatbot contents goes here -->
@@ -22,11 +22,11 @@ subtitle: A primeira assistente de IA da Alini
             <!--keypad for user to type the message -->
             <div class="keypad">
                 <textarea id="userInput" placeholder="Type a message..." class="usrInput"></textarea>
-                <div id="sendButton"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+                 <button id="sendButton" class = "sendButton"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
             </div>
         </div>
         <!--bot profile-->
         <div class="profile_div" id="profile_div">
-            <img class="imgProfile" src="/assets/img/chatbot/kiki-bot.png" />
+            <img class="imgProfile" src="/assets/img/chatbot/messenger.png" />
         </div>
     </div>

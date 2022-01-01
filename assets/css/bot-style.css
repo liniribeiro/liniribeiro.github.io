@@ -136,32 +136,41 @@ textarea-webkit-scrollbar {
 
 .keypad {
     /* display: none;  */
-    background: white;
-    height: 50px;
+    background: #fff;
+    height: 3.125rem;
     position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
     width: 100%;
-    padding: 5px;
-    border-radius: 0px 0px 10px 10px;
+    padding: 0.3125rem;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+    border-top: 0.0625rem solid #eceeef;
 }
 
-#sendButton {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    display: inline-block;
+
+
+.sendButton {
+    background: #fff;
     float: right;
-    margin-right: 30px;
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
+    border-radius: 50%;
+    padding: 2%;
+    font-size: 1.25rem;
     cursor: pointer;
     color: #403E3E;
-}
+    position: relative;
+    top: -0.1875rem;
+    transition: all .2s ease-in-out;
+    border: none;
+  }
+  
+  .sendButton:hover, 
+  .sendButton:focus,
+  .sendButton.active {
+    top:-0.25rem;
+    box-shadow: 0 0.25rem 0.1875rem 0  #999;
+  }
+
 
 .imgProfile {
-    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 #00000096;
-    border-radius: 50px;
     width: 60%;
 }
 
@@ -172,15 +181,14 @@ textarea-webkit-scrollbar {
   }
   
 .profile_div {
-    /* display: none; */
-    position: fixed;
-    padding: 5px;
-    width: 10%;
-    bottom: 150px;
-    right: 0;
-    cursor: pointer;
-    transform-origin: 50% 50%;
-    animation: jump 2s linear alternate infinite;
+ position: fixed;
+  padding: 0.4rem;
+  width: 5%;
+  bottom: 2rem;
+  right: 0;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  animation: jump 2s linear alternate infinite;
 }
 
 

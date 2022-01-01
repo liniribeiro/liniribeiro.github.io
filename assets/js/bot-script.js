@@ -118,6 +118,7 @@ $("#sendButton").on("click", function(e) {
         $("#paginated_cards").remove();
         $(".quickReplies").remove();
         $(".usrInput").blur();
+        $(".usrInput").focus();
         setUserResponse(text);
         send(text);
         e.preventDefault();
@@ -141,6 +142,7 @@ function scrollToBottomOfResults() {
 
     var terminalResultsDiv = document.getElementById("chats");
     terminalResultsDiv.scrollTop = terminalResultsDiv.scrollHeight;
+
 }
 
 //============== send the user message to rasa server =============================================
