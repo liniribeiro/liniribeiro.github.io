@@ -142,6 +142,7 @@ function scrollToBottomOfResults() {
 
     var terminalResultsDiv = document.getElementById("chats");
     terminalResultsDiv.scrollTop = terminalResultsDiv.scrollHeight;
+    $(".usrInput").focus();
 
 }
 
